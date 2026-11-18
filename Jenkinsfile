@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing Application'
-                bat 'java helloworld'
+                bat 'java HelloWorld'
             }
         }
 
